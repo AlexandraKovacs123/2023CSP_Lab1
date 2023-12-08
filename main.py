@@ -113,10 +113,10 @@ def v110():
     # Calling the 100 point function - don't copy-paste from earlier method!!
     v100()
 
-    startX = -245
-    startY = -145
-    endX = 245
-    endY = -144.375
+    startX = -240
+    startY = -140
+    endX = 240
+    endY = -139.375
 
     for line in range(56):
         lines.penup()
@@ -127,10 +127,10 @@ def v110():
         endY += 5.625
         lines.pendown()
 
-    startX = 245
-    startY = -145
-    endX = -245
-    endY = -144.375
+    startX = 240
+    startY = -140
+    endX = -240
+    endY = -139.375
 
     for line in range(56):
         lines.penup()
@@ -141,10 +141,10 @@ def v110():
         endY += 5.625
         lines.pendown()
 
-    startX = -245
-    startY = 180
-    endX = 245
-    endY = 174.375
+    startX = -240
+    startY = 171
+    endX = 240
+    endY = 169.375
 
     for line in range(56):
         lines.penup()
@@ -155,10 +155,10 @@ def v110():
         endY -= 5.625
         lines.pendown()
 
-    startX = 245
-    startY = 180
-    endX = -245
-    endY = 174.375
+    startX = 240
+    startY = 171
+    endX = -240
+    endY = 169.375
 
     for line in range(56):
         lines.penup()
